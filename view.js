@@ -1,0 +1,15 @@
+export const UI = {
+  TAB_LINKS: document.querySelectorAll(".catalog__list-link"),
+  CONTENT_COLLECTION: document.querySelectorAll(".catalog__content-wrapper"),
+  IDEA_BUTTONS: document.querySelectorAll(".idea"),
+  BANNER_BUTTON: document.querySelector(".banner__button"),
+  MODALS: document.querySelectorAll(".modal"),
+  MODAL_BUTTONS_CLOSE: document.querySelectorAll(".modal__button-close"),
+  MODAL_FIRST: document.querySelector(".modal-first"),
+  MODAL_THANKS: document.querySelector(".modal-thanks"),
+  MODAL_BUTTON: document.querySelector(".modal__button-submit"),
+  ABOUT_LINK: document.querySelector(".about-link"),
+  NAVIGATION_ITEMS: document.querySelectorAll(".navigation-item"),
+  BODY: document.querySelector("body"),
+  BUTTON_UP: document.querySelector(".button-up"),
+};

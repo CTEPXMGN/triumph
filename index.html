@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Триумф</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <h1 class="logo">ТРИУМФ</h1>
+        <ul class="navigation-list">
+          <li class="navigation-item about-link" id="link-1">
+            <a href="#" class="navigation-link">О компании</a>
+          </li>
+          <li class="navigation-item" id="link-2">
+            <a href="#" class="navigation-link">Наши партнеры</a>
+          </li>
+          <li class="navigation-item" id="link-3">
+            <a href="#" class="navigation-link">Каталог продукции</a>
+          </li>
+          <li class="navigation-item" id="link-4">
+            <a href="#" class="navigation-link">Преимущества</a>
+          </li>
+          <li class="navigation-item" id="link-5">
+            <a href="#" class="navigation-link">Контакты</a>
+          </li>
+        </ul>
+        <ul class="contacts">
+          <li>г. Нур-Султан</li>
+          <li>ул. Тлендиева 24</li>
+          <li>металлоцех бокс 1, 2</li>
+          <li>
+            <img src="/img/WhatsApp.svg" alt="whatsapp" class="whatsapp" />
+            <strong>+77071093609</strong>
+          </li>
+          <li>
+            <img src="/img/phone.svg" alt="телефон" class="phone-img" />
+            <strong>+77074449968</strong>
+          </li>
+        </ul>
+      </nav>
+      <h2 class="product">Металлоизделия и художественная ковка</h2>
+      <p class="description">
+        Эксклюзивные предметы экстерьера, мебель, скульптура, подарки.
+        <br /><br />
+        Есть идея, а с эксклюзивом никто не может попасть в точку?
+      </p>
+      <button class="button-style idea">Обсудить идею</button>
+      <img src="/img/Vector.png" alt="Полукруг" class="header__img" />
+    </header>
+    <main class="main">
+      <h2 class="about">О компании</h2>
+      <div class="about-wrapper">
+        <div class="about-wrapper__description">
+          <p class="about-text">
+            Наша компания работает на рынке с 2014 года. На сегодняшний день мы
+            специализируемся на производстве металлоизделий на заказ и
+            металлоконструкций по индивидуальным чертежам и образцам:
+          </p>
+          <ul class="services">
+            <li>-художественная ковка</li>
+            <li>-услуги кузнеца</li>
+            <li>-сварочные работы</li>
+            <li>-монтаж и демонтаж</li>
+            <li>-аргонная сварка</li>
+            <li>-изготовление дизайнов любой сложности</li>
+            <li>-полимерное покрытие</li>
+          </ul>
+          <a href="#" class="button-style idea">Обсудить идею</a>
+        </div>
+        <img class="about-img" src="/img/photo-about.png" alt="Фото" />
+      </div>
+      <div class="partners">
+        <h2 class="partners__header">Наши партнёры</h2>
+        <ul class="partners__list">
+          <li>
+            <a href="#" class="partners__list-item"> DOOR HAN </a>
+          </li>
+          <li>
+            <a href="#" class="partners__list-item"> ТОО Ушаково АГРО </a>
+          </li>
+          <li>
+            <a href="#" class="partners__list-item"> ТОО "Нуртуган 2030" </a>
+          </li>
+        </ul>
+        <div class="partners__images">
+          <a href="#">
+            <img
+              src="/img/kaspi.png"
+              alt="kaspi red"
+              class="partners__images-kaspi"
+            />
+          </a>
+          <a href="#"
+            ><img
+              src="/img/discount.png"
+              alt="discounts"
+              class="partners__images-discount"
+          /></a>
+        </div>
+        <img src="/img/pngegg 35.png" alt="узор" class="partners__img-left" />
+        <img src="/img/pngegg 34.png" alt="узор" class="partners__img-right" />
+      </div>
+      <div class="catalog">
+        <h2 class="catalog__title">Каталог продукции</h2>
+        <ul class="catalog__list-first">
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link active" data-tab_id="1"
+              >Козырьки</a
+            >
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="2">Навесы</a>
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="3">Беседки</a>
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="4">Ворота</a>
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="5">Решетки</a>
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="6">Лестницы</a>
+          </li>
+        </ul>
+        <ul class="catalog__list-second">
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="7">Мангалы</a>
+          </li>
+          <!-- <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="8">Качели</a>
+          </li> -->
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="9">Перила</a>
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="10"
+              >Входные группы</a
+            >
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="11"
+              >Ограждения</a
+            >
+          </li>
+          <li class="catalog__list-item">
+            <a href="#" class="catalog__list-link" data-tab_id="12"
+              >Другое (урны, лавочки и т.д.)</a
+            >
+          </li>
+        </ul>
+        <div class="catalog__content">
+          <div class="catalog__content-wrapper" id="1">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_11.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/koz_12.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="2">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/nav_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/nav_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/nav_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/nav_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/nav_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/nav_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/nav_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="3">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/bes_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="4">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vor_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="5">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/resh_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="6">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/les_11.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="7">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/man_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="9">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/per_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="10">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/vhg_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="11">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/ogr_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="catalog__content-wrapper hide" id="12">
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_1.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_2.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_3.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_4.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_5.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_6.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_7.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_8.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_9.png" alt="1" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+            <div class="catalog__content-item">
+              <img
+                class="catalog__content-pattern_1"
+                src="/img/pngegg 1.png"
+                alt=""
+              />
+              <img src="/img/drg_10.png" alt="2" />
+              <img
+                class="catalog__content-pattern_2"
+                src="/img/pngegg 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <p class="banner__text">
+          Оставьте заявку и мы расчитаем стоимость изделия в кратчайшие сроки
+        </p>
+        <button class="button-style banner__button">Оставьте заявку</button>
+      </div>
+      <div class="avantages">
+        <img
+          src="/img/half-circle-up.svg"
+          alt="half-circle"
+          class="half-circle-up"
+        />
+        <h2 class="avantages__title">Наши приемущества</h2>
+        <div class="avantages__icons">
+          <div class="avantage__quality">
+            <img
+              src="/img/quality-img.svg"
+              alt="quality"
+              class="avantage__quality-img"
+            />
+            <p class="avantage__quality-text">Качество</p>
+          </div>
+          <div class="avantage__efficiency">
+            <img
+              src="/img/efficiency-img.svg"
+              alt="efficiency"
+              class="avantage__efficiency-img"
+            />
+            <p class="avantage__efficiency-text">Оперативность</p>
+          </div>
+          <div class="avantage__low-price">
+            <img
+              src="/img/low-price.svg"
+              alt="low price"
+              class="avantage__low-price-img"
+            />
+            <p class="avantage__low-price-text">Низкие цены</p>
+          </div>
+        </div>
+        <img
+          src="/img/half-circle-down.svg"
+          alt="half-circle"
+          class="half-circle-down"
+        />
+      </div>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title">Контакты</h2>
+      <div class="footer__content">
+        <ul class="footer__contacts">
+          <li>г. Нур-Султан, ул. Тлендиева 24</li>
+          <li>металлоцех бокс 1,2</li>
+          <li>График работы — ежедневно с 09:00 до 20:00</li>
+          <li>
+            <img src="/img/WhatsApp.svg" alt="whatsapp" class="whatsapp" />
+            <strong>+77071093609</strong>
+          </li>
+          <li>
+            <img src="/img/phone.svg" alt="телефон" class="phone-img" />
+            <strong>+77074449968</strong>
+          </li>
+        </ul>
+        <div style="position: relative; overflow: hidden" class="footer__map">
+          <a
+            href="https://yandex.ru/maps/163/astana/?utm_medium=mapframe&utm_source=maps"
+            style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+            >Астана</a
+          ><a
+            href="https://yandex.ru/maps/163/astana/house/Y0gYdQNkT0EOQFtrfX15eHhiZg==/?ll=71.343929%2C51.190865&utm_medium=mapframe&utm_source=maps&z=15.36"
+            style="color: #eee; font-size: 12px; position: absolute; top: 14px"
+            >Проспект Нургисы Тлендиева, 24 — Яндекс Карты</a
+          ><iframe
+            src="https://yandex.ru/map-widget/v1/?ll=71.343929%2C51.190865&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNjEyNzY5NDg5ElbSmtCw0LfQsNKb0YHRgtCw0L0sINCQ0YHRgtCw0L3QsCwg0J3SsdGA0pPQuNGB0LAg0KLRltC70LXQvdC00LjQtdCyINC00LDSo9KT0YvQu9GLLCAyNCIKDXawjkIV9cFMQg%2C%2C&z=15.36"
+            width="739"
+            height="376"
+            frameborder="1"
+            allowfullscreen="true"
+            style="position: relative"
+          ></iframe>
+        </div>
+      </div>
+      <h2 class="footer__logo">ТРИУМФ</h2>
+    </footer>
+    <div class="modal modal-first hide">
+      <div class="modal__container">
+        <img src="/img/kovka.png" alt="ковка" />
+        <ul class="contacts modal-contacts">
+          <li>г. Нур-Султан</li>
+          <li>ул. Тлендиева 24</li>
+          <li>металлоцех бокс 1, 2</li>
+          <li>
+            <img src="/img/WhatsApp.svg" alt="whatsapp" class="whatsapp" />
+            <strong>+77071093609</strong>
+          </li>
+          <li>
+            <img src="/img/phone.svg" alt="телефон" class="phone-img" />
+            <strong>+77074449968</strong>
+          </li>
+        </ul>
+        <div class="modal__body">
+          <button class="modal__button-close">&#10006;</button>
+          <h3 class="modal__title">Заполните форму и мы свяжемся с вами</h3>
+          <form class="modal__form">
+            <input
+              class="modal__input modal__input-name"
+              type="text"
+              placeholder="Ваше имя"
+            />
+            <input
+              class="modal__input modal__input-phone"
+              type="tel"
+              placeholder="Ваш телефон"
+            />
+            <input
+              class="modal__input modal__input-email"
+              type="email"
+              placeholder="E-mail"
+            />
+            <input
+              class="modal__input modal__input-comment"
+              type="text"
+              placeholder="Комментарий"
+            />
+            <label class="modal__check-wrapper">
+              <input type="checkbox" class="modal__input-check" />
+              <div></div>
+              <p>Я согласен с политикой конфиденциальности</p>
+            </label>
+            <button class="button-style modal__button-submit" type="submit">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-thanks hide">
+      <div class="modal__container">
+        <img src="/img/kovka.png" alt="ковка" />
+        <ul class="contacts modal-contacts">
+          <li>г. Нур-Султан</li>
+          <li>ул. Тлендиева 24</li>
+          <li>металлоцех бокс 1, 2</li>
+          <li>
+            <img src="/img/WhatsApp.svg" alt="whatsapp" class="whatsapp" />
+            <strong>+77071093609</strong>
+          </li>
+          <li>
+            <img src="/img/phone.svg" alt="телефон" class="phone-img" />
+            <strong>+77074449968</strong>
+          </li>
+        </ul>
+        <div class="modal__body modal-thanks__body">
+          <button class="modal__button-close">&#10006;</button>
+          <h3 class="modal-thanks__title">Спасибо за ваш заказ</h3>
+          <p>В самое ближайшее время мы свяжемся с Вами и обсудим заказ!</p>
+          <p>С уважением, команда ТРИУМФ</p>
+        </div>
+      </div>
+    </div>
+    <div class="button-up hide"></div>
+    <script src="/script.js" type="module"></script>
+  </body>
+</html>
