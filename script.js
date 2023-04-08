@@ -1,5 +1,5 @@
 import { UI } from "./view.js";
-
+//
 function tabClick(e) {
   e.preventDefault();
   UI.TAB_LINKS.forEach((item) => item.classList.remove("active"));
@@ -31,7 +31,6 @@ function closeModalFirst(e) {
 function closeModals() {
   UI.MODALS.forEach((item) => {
     item.classList.add("hide");
-    console.log(item);
   });
 }
 
@@ -41,7 +40,6 @@ function showModalThanks() {
 
 function scrollTo(e, id) {
   e.preventDefault();
-  // console.log(id);
 
   if (id === "link-1") {
     window.scrollTo({
@@ -91,13 +89,27 @@ function scrollUp() {
   });
 }
 
+function getFormData() {
+  const data = {
+    name: UI.INPUT_NAME.value,
+    phone: UI.INPUT_PHONE.value,
+    email: UI.INPUT_EMAIL.value,
+    comment: UI.INPUT_COMMENT.value,
+    check: UI.INPUT_CHECK.checked,
+  };
+
+  console.log(data);
+}
+
 UI.IDEA_BUTTONS.forEach((item) => {
   item.addEventListener("click", (e) => openModal(e));
 });
 
 UI.BANNER_BUTTON.addEventListener("click", (e) => openModal(e));
 
-UI.MODAL_BUTTON.addEventListener("click", (e) => closeModalFirst(e));
+UI.MODAL_BUTTON.addEventListener("click", (e) => {
+  closeModalFirst(e), getFormData();
+});
 
 UI.MODAL_BUTTONS_CLOSE.forEach((item) => {
   item.addEventListener("click", closeModals);

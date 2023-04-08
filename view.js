@@ -12,4 +12,9 @@ export const UI = {
   NAVIGATION_ITEMS: document.querySelectorAll(".navigation-item"),
   BODY: document.querySelector("body"),
   BUTTON_UP: document.querySelector(".button-up"),
+  INPUT_NAME: document.querySelector(".modal__input-name"),
+  INPUT_PHONE: document.querySelector(".modal__input-phone"),
+  INPUT_EMAIL: document.querySelector(".modal__input-email"),
+  INPUT_COMMENT: document.querySelector(".modal__input-comment"),
+  INPUT_CHECK: document.querySelector(".modal__input-check"),
 };
