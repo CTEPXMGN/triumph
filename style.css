@@ -519,11 +519,15 @@ body {
 }
 
 .modal__container {
-  height: 90%;
+  height: 748px;
   width: 870px;
   display: flex;
   background-color: #181715;
   position: relative;
+}
+
+.modal-container img {
+  width: 354px;
 }
 
 .modal-contacts {
